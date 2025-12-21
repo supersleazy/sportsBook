@@ -58,7 +58,7 @@
         <!-- Centered SportsBook Logo & Text -->
         <div class="header-center">
           <a href="index.html" class="logo-link">
-            <img src="sblogo.png" alt="SportsBook Logo" class="header-logo" />
+            <img src="assets/logos/sblogo.png" alt="SportsBook Logo" class="header-logo" />
             <span class="logo-text">SportsBook</span>
           </a>
         </div>
@@ -296,7 +296,7 @@
       });
     });
 
-    // Generate sample players (50 players) with all images set to def_avatar.jpg
+    // Generate sample players (50 players) with all images set to assets/images/def_avatar.jpg
     const players = [];
     const sports = ["Football", "Basketball", "Volleyball", "Cricket", "Table-Tennis", "Lawn-Tennis", "Badminton"];
     const skills = ["Beginner", "Intermediate", "Advanced", "Expert"];
@@ -306,7 +306,7 @@
         name: "Player " + i,
         sport: sports[i % sports.length],
         skill: skills[i % skills.length],
-        image: "def_avatar.jpg"
+        image: "assets/images/def_avatar.jpg"
       });
     }
 
