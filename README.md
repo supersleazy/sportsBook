@@ -1,4 +1,4 @@
-# SportsBook – Frontend UI
+# SportsBook – Frontend UI Concept
 
 SportsBook is a **frontend-only prototype** for a campus sports management platform.  
 It visualizes how a unified system could manage sports facilities, players, matches, and bookings within a university or campus environment.
